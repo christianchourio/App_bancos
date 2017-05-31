@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Seccion calculadora</title>
+<meta name="generator" content="WYSIWYG Web Builder 12 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="BANCOS_Y_CALCULADORA_mobile.css" rel="stylesheet">
+<link href="calculadora.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" data-title="Seccion calculadora" id="calculadora">
+<div data-role="header" id="Header1">
+<h1>CALCULADORA</h1>
+<a href="./index.html" data-role="button" class="ui-btn-left">Inicio</a>
+</div>
+<div class="ui-content" role="main">
+<!-- activacion de enlaces -->
+<div id="Html1" style="display:inline-block;width:100px;height:100px;z-index:2">
+<script charset="utf-8" src="plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js"></script>
+<script src="phonegap.js"></script></div>
+</div>
+<div data-role="footer" id="Footer1" data-position="fixed"><h6>Derechos Reservados 2017</h6></div>
+</div>
+</body>
+</html>
